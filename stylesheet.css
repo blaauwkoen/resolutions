@@ -3,12 +3,12 @@ body {
   border: 5px black;
 }
 h1 {
-  font-family: 'Inter UI Medium', sans-serif;
+  font-family: 'Inter UI Bold', sans-serif;
   margin: 0;
 }
 h3 {
   font-size: 30px;
-  font-family: 'Inter UI Medium', sans-serif;
+  font-family: 'Inter UI Bold', sans-serif;
   margin: 0;
   margin-top: 27px;
 }
@@ -55,7 +55,27 @@ html {
 footer {
   margin: 50px 0px 50px 0px;
 }
-
+.subtext {
+  color: #9D9D9D;
+  font-size: 10px;
+  float: right;
+  margin-top: 15px;
+  text-align: right;
+}
+#social {
+  margin-top: 20px;
+}
+.socialp {
+  margin: 0;
+  font-family: 'Inter UI Bold', sans-serif;
+}
+.sociala {
+  border-bottom: 0;
+}
+.sociala:hover {
+  border-bottom: 0;
+  opacity: 0.6;
+}
 @media only screen and (min-width: 800px) {
   body {
     margin-left: 33.3333333%;
@@ -70,3 +90,5 @@ h1 {
   h1 {
     font-size: 50px;
   }}
+  .failed {color: #E46D7C}
+  .working {color: #E4B16D}
